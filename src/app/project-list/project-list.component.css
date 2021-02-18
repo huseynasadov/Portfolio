@@ -1,0 +1,110 @@
+.works {
+    position: relative;
+    z-index: 5;
+    min-height: 100vh;
+  }
+  
+  .works .card {
+    padding: 12px;
+    margin-bottom: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 33.33%;
+  }
+  
+  .works .card .img-outer {
+    height: 200px;
+    overflow: hidden;
+    border: 3px solid #333;
+    padding: 20px;
+  }
+  
+  .works .card .img-outer img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  
+  .works .card h2 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    margin: 15px 0;
+    text-transform: capitalize;
+  }
+  
+  .works .card .content {
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  .works .card .content .tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .works .card .content .tags span {
+    background: transparent;
+    border: 2px solid #333;
+    margin-right: 10px;
+    padding: 5px 10px;
+  }
+  
+  .works .card .content p {
+    color: #333;
+    margin: 20px 0 25px;
+  }
+  
+  .works .card .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .works .card .buttons a {
+    background: #333;
+    border: 2px solid transparent;
+    cursor: pointer;
+    padding: 7px 10px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  .works .card .buttons a:hover {
+    background: transparent;
+    color: #333 !important;
+    border: 2px solid #333;
+  }
+  
+  @media (max-width: 1024px) {
+    .works .card {
+      width: 50%;
+    }
+    .works .card .content p {
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .works .card {
+      width: 100%;
+    }
+    .works .card .content p {
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    section.works {
+      height: auto !important;
+    }
+  }
+  /*# sourceMappingURL=project-list.component.css.map */
